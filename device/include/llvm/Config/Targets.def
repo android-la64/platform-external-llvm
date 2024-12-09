@@ -40,7 +40,7 @@
   LLVM_TARGET(ARM)
   LLVM_TARGET(AArch64)
 #elif defined(__loongarch__) && (__loongarch_grlen == 64)
-  LLVM_TARGET(LOONGARCH)
+  LLVM_TARGET(LoongArch)
 #else
 #  error Unsupported TARGET_ARCH for LLVM_TARGET
 #endif

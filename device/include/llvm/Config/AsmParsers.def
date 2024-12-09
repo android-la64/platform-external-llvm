@@ -41,7 +41,7 @@
   LLVM_ASM_PARSER(ARM)
   LLVM_ASM_PARSER(AArch64)
 #elif defined(__loongarch__) && (__loongarch_grlen == 64)
-  LLVM_ASM_PARSER(LOONGARCH64)
+  LLVM_ASM_PARSER(LoongArch)
 #else
 #  error Unsupported TARGET_ARCH for LLVM_ASM_PARSER
 #endif

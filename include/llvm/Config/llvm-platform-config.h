@@ -118,28 +118,28 @@
 #elif defined(__loongarch__) && (__loongarch_grlen == 64)
 
 /* LLVM architecture name for the native architecture, if available */
-//#define LLVM_NATIVE_ARCH Loongarch64
+#define LLVM_NATIVE_ARCH LoongArch
 
 /* Host triple LLVM will be executed on */
-#define LLVM_HOST_TRIPLE "loongarch64-none-linux-gnu"
+#define LLVM_HOST_TRIPLE "loongarch64-unknown-linux-gnu"
 
 /* LLVM name for the native AsmParser init function, if available */
-//#define LLVM_NATIVE_ASMPARSER LLVMInitializeLOONGARCHAsmParser
+// #define LLVM_NATIVE_ASMPARSER LLVMInitializeLoongArchAsmParser
 
 /* LLVM name for the native AsmPrinter init function, if available */
-//#define LLVM_NATIVE_ASMPRINTER LLVMInitializeLOONGARCHAsmPrinter
+// #define LLVM_NATIVE_ASMPRINTER LLVMInitializeLoongArchAsmPrinter
 
 /* LLVM name for the native Disassembler init function, if available */
-//#define LLVM_NATIVE_DISASSEMBLER LLVMInitializeLOONGARCHDisassembler
+// #define LLVM_NATIVE_DISASSEMBLER LLVMInitializeLoongArchDisassembler
 
 /* LLVM name for the native Target init function, if available */
-//#define LLVM_NATIVE_TARGET LLVMInitializeLOONGARCHTarget
+// #define LLVM_NATIVE_TARGET LLVMInitializeLoongArchTarget
 
 /* LLVM name for the native TargetInfo init function, if available */
-//#define LLVM_NATIVE_TARGETINFO LLVMInitializeLOONGARCHTargetInfo
+// #define LLVM_NATIVE_TARGETINFO LLVMInitializeLoongArchTargetInfo
 
 /* LLVM name for the native target MC init function, if available */
-//#define LLVM_NATIVE_TARGETMC LLVMInitializeLOONGARCHTargetMC
+// #define LLVM_NATIVE_TARGETMC LLVMInitializeLoongArchTargetMC
 
 #else
 

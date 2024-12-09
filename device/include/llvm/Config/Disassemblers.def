@@ -41,7 +41,7 @@
   LLVM_DISASSEMBLER(ARM)
   LLVM_DISASSEMBLER(AArch64)
 #elif defined(__loongarch__) && (__loongarch_grlen == 64)
-  LLVM_DISASSEMBLER(LOONGARCH64)
+  LLVM_DISASSEMBLER(LoongArch)
 #else
 #  error Unsupported TARGET_ARCH for LLVM_DISASSEMBLER
 #endif
